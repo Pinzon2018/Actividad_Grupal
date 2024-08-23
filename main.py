@@ -15,3 +15,14 @@ for i in range(0, cant):
 suma = sum(numeros)
 
 print(f"La suma total de los numeros es de: {suma}")
+
+matriz = []
+
+for fila in range(3):
+    filas = []
+    for columna in range(3):
+        filas.append(int(input(f"Digite el valor de la fila {fila+1}: ")))
+    matriz.append(filas)
+
+for filas in matriz:
+    print(filas)
